@@ -11,7 +11,7 @@ public class Main {
     public static void main(String... args) throws Exception {
         String startPath;
         if (args.length < 1) {
-            System.out.println("Not directory specificed, using current directory");
+            System.out.println("No directory specified, using current directory");
             startPath = ".";
         }
         else {
