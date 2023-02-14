@@ -18,7 +18,16 @@
         <mainClass>org.music.Main</mainClass>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.jflac</groupId>
+            <artifactId>jflac-codec</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+    </dependencies>
+
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
